@@ -1,0 +1,85 @@
+.profile-pic{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    margin-top:20px;
+}
+header{
+background:black;
+color:white;
+padding:10px;
+text-align:center;
+}
+nav ul{
+    padding:0px;
+    list-style:none;
+}
+nav ul li{
+margin: 20px;
+display: inline;
+}
+nav ul li a{
+color:white;
+
+}
+
+
+.section{ 
+    padding: 20px;
+    text-align:center;
+    margin:50px auto;
+    max-width: 800px;
+    background:white;
+    box-shadow: 0 2px 5px black;
+    border-radius: 18px;
+
+
+}
+form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+form label{ 
+    margin: 10px 0 5px;
+    
+}
+form input,
+form textarea,
+form button{
+    width: 80%;
+    padding: 10px;
+    margin:5px 0;
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 5px;
+}
+form button{
+    background:black ;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+form button:hover{
+    background:pink ;
+}
+footer{
+    text-align: center;
+    padding:10px 0;
+    background: black;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.hobby-list{
+    list-style: none;
+    padding: 0;
+
+}
+.hobby-list li{
+    background: rgb(111, 73, 198);
+    color: rgb(255, 255, 255);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
